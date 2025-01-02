@@ -1,0 +1,48 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Thumbnails
+Thumbs.db
+ehthumbs.db
+
+# macOS system files
+.fseventsd
+.Spotlight-V100
+.Trashes
+*.swp
+
+# ROS 2
+build/
+install/
+log/
+.colcon/
+.colcon_cache/
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pytest_cache/
+*.coverage
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Editor backups
+*~ 
+*.bak
+*.tmp
+
+# Ignore node_modules in case of frontend additions
+node_modules/
+
+# ROS 2 workspace-specific
+*.egg-info/
+*.swp
+setup.cfg
+setup.py
